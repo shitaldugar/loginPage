@@ -1,0 +1,86 @@
+
+body{
+    background-color:white;
+    text-align: center;
+}
+
+#container{
+    background-color: aliceblue;
+    width:400px;
+    height:300px;
+    margin-left:35%;
+    margin-top:30px;
+    position: relative;
+}
+
+#box{
+    background-color: whitesmoke;
+    width:350px;
+    height:250px;   
+    margin-left:26px;
+    margin-top:20px;
+    padding-top:10px;
+    border-radius: 5px;
+    box-shadow:0 2px 5px rgba(0 ,0 ,0 ,0.3);
+    position:absolute;
+}
+
+#email{
+    margin:3px;
+    width:200px;
+    line-height:30px;
+    font-size:12px;
+    margin-top:2px;
+    border-radius:4px solid grey;
+}
+
+#password{
+    margin:3px;
+    width:200px;
+    line-height:30px;
+    font-size:12px;
+    border-radius:4px solid grey;
+}
+
+#btn1{
+    margin:3px;
+    width:210px;
+    line-height:25px;
+    background-color:rgb(0, 162, 255);
+    border:1px solid grey;
+    font-size:15px;
+    border-radius:10px solid grey;
+    color:white;
+    cursor:pointer;
+}
+
+a{
+ text-decoration: none;
+}
+
+#pass-link{
+    color:rgb(0, 162, 255);
+    font-weight:bold;
+    font-size:13px;
+}
+
+#acc-link{
+    color:white;
+    background-color: green;
+    padding:9px;
+    font-size: 13px;
+}
+
+#emailid{
+    color:red;
+    font-size:13px;
+}
+
+#pass{
+    color:red;
+    font-size:13px;
+}
+
+    
+
+
