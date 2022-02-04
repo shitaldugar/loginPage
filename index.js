@@ -1,6 +1,7 @@
 function Validation(){
     var email=document.getElementById("email").value;
     var password=document.getElementById("password").value;
+   
 
     if(email==""){
         document.getElementById("emailid").innerHTML="**plz fill the email id or phone number";
@@ -33,9 +34,11 @@ function Validation(){
         return false;
     }
     else {
-        alert("Congratulations, you have logged in successfully!")
-}
-    
+        document.getElementById("emailid").innerHTML="";
+        document.getElementById("pass").innerHTML="";
+        alert("you have logged in successfully!")
+
+    }
     
 
     
