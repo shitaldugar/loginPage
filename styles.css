@@ -6,7 +6,7 @@ body{
 
 #container{
     background-color: aliceblue;
-    width:400px;
+    width:300px;
     height:300px;
     margin-left:35%;
     margin-top:30px;
@@ -15,7 +15,7 @@ body{
 
 #box{
     background-color: whitesmoke;
-    width:350px;
+    width:250px;
     height:250px;   
     margin-left:26px;
     margin-top:20px;
@@ -28,7 +28,7 @@ body{
 #email{
     margin:3px;
     width:200px;
-    line-height:30px;
+    line-height:25px;
     font-size:12px;
     margin-top:2px;
     border-radius:4px solid grey;
@@ -37,12 +37,12 @@ body{
 #password{
     margin:3px;
     width:200px;
-    line-height:30px;
+    line-height:25px;
     font-size:12px;
     border-radius:4px solid grey;
 }
 
-#btn1{
+#btn{
     margin:3px;
     width:210px;
     line-height:25px;
@@ -67,18 +67,22 @@ a{
 #acc-link{
     color:white;
     background-color: green;
-    padding:9px;
+    padding:7px;
     font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 #emailid{
     color:red;
     font-size:13px;
+    display:flex;
 }
 
 #pass{
     color:red;
     font-size:13px;
+    display:flex;
 }
 
     
