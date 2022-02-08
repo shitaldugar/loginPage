@@ -24,17 +24,38 @@ function Validation(){
 
     }
     if(password==""){
+        document.getElementById("emailid").innerHTML="";
         document.getElementById("pass").innerHTML="**plz fill the password";
         return false;
     }
     
     if((password.length<5 )||(password.length>20)){
+        document.getElementById("emailid").innerHTML="";
         document.getElementById("pass").innerHTML="** paasword length should be between 6 to 20 letter";
         return false;
     }
     else {
-        document.getElementById("emailid").innerHTML="";
-
       alert("you have logged in successfully!")
     }
 }
+
+// fetch("https://login-signup.p.rapidapi.com/public/v1/login.php", {
+// 	"method": "POST",
+// 	"headers": {
+// 		"content-type": "application/x-www-form-urlencoded",
+// 		"origin": "http://127.0.0.1",
+// 		"x-rapidapi-host": "login-signup.p.rapidapi.com",
+// 		"x-rapidapi-key": "189d8a742bmsha1eeb71bb07aedcp114ec7jsn0c89da457c82"
+// 	},
+// 	"body": {
+// 		"api_key": "394e9338b73a9f061b1968ceaa050a",
+// 		"email": "test@email.com",
+// 		"password": "Qwerty_12345"
+// 	}
+// })
+// .then(response => {
+// 	alert(response);
+// })
+// .catch(err => {
+// 	console.error(err);
+// });
